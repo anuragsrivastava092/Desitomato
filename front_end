@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- location,student,classes  -->
+<div class="container">
+  <h2>Vertical (basic) form</h2>
+  <form role="form">
+  <div> Address
+    <div class="form-group">
+      <label for="Street">street</label>
+      <input type="text" class="form-control" id="street" placeholder="Enter street">
+	  <label for="city">City:</label>
+      <input type="text" class="form-control" id="city" placeholder="Enter city">
+	  <label for="state">state:</label>
+      <input type="text" class="form-control" id="state" placeholder="Enter state">
+	  <label for="pincode">pincode:</label>
+      <input type="text" class="form-control" id="PinCode" placeholder="Enter pincode">
+    </div>
+  </div>
+  <div> Test Exams
+    <div class="form-group">
+      <label for="exams">test:</label>
+      <input type="text" class="form-control" id="test" placeholder="Enter test">
+    </div>
+   </div>
+   <div> Batch Size
+    <div class="form-group">
+      <label for="batch size">Batch Size:</label>
+      <input type="text" class="form-control" id="batch_size" placeholder="Enter batch size">
+    </div>
+   </div>
+    
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
 
+</body>
+</html>
